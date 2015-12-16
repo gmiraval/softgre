@@ -41,8 +41,8 @@ webinterfacelib_DATA =            \
 include dashboard.mk
 
 dashboarddir = $(webinterfacedir)
-dashboard_DATA = webinterface/dashboard/dist/index.html \
-				 webinterface/dashboard/dist/favicon.ico
+dashboard_DATA = webinterface/dashboard/app/index.html \
+				 webinterface/dashboard/app/favicon.ico
 
 # extra dist files
 EXTRA_DIST = $(apacheconf_DATA)       \
