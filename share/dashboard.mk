@@ -5,7 +5,7 @@ dashboardimagesdir = $(pkgdatadir)/webinterface/images
 dashboardimages_DATA = webinterface/dashboard/app/images/yeoman.png
 
 dashboardscriptsdir = $(pkgdatadir)/webinterface/scripts
-dashboardscripts_DATA = webinterface/dashboard/app/scripts/app.js
+dashboardscripts_DATA = webinterface/dashboard/app/scripts/app.js webinterface/dashboard/app/scripts/controllers/main.js
 
 dashboardstylesdir = $(pkgdatadir)/webinterface/styles
 dashboardstyles_DATA = webinterface/dashboard/app/styles/main.css
